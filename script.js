@@ -7,6 +7,7 @@ const gif = document.querySelector(".gif");
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Ukoliko vidis ovaj tekst znaj da ce te sreca od danas pratiti. Mudrosti koje leze u njemu oplemenjuju dusu, otvaraju nove vidike, a samim tim donose i mnogo srece. Posalji u 5 poruka svojim najblizim osobama i znaj da si uspeo u najboljim namerama, a sebi doneo srecu.";
   gif.src = "https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/GlbFPRyih6/original";
+  question.style.fontSize = "1.5em";
   yesBtn.textContent = "Volim Anu <3";
   noBtn.style.display = "none";
 
